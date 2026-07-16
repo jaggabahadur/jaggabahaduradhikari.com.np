@@ -116,3 +116,20 @@ color:#1565c0;
     line-height:1.8;
     font-size:18px;
 }
+footer{
+background:#0d47a1;
+color:white;
+text-align:center;
+padding:30px 20px;
+margin-top:40px;
+}
+
+footer a{
+color:#ffd54f;
+text-decoration:none;
+margin:0 10px;
+}
+
+footer a:hover{
+text-decoration:underline;
+}
