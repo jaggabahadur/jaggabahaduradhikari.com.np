@@ -90,3 +90,29 @@ transform:translateY(-8px);
 .card h2{
 color:#1565c0;
 }
+.about{
+    background:#ffffff;
+    text-align:center;
+    padding:60px 20px;
+}
+
+.profile{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    border:5px solid #1565c0;
+    margin:20px 0;
+    object-fit:cover;
+}
+
+.about h2{
+    color:#1565c0;
+    margin-bottom:15px;
+}
+
+.about p{
+    max-width:700px;
+    margin:auto;
+    line-height:1.8;
+    font-size:18px;
+}
