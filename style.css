@@ -65,3 +65,28 @@ nav a:hover{
 .btn:hover{
     background:#e65100;
 }
+.features{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+padding:40px 20px;
+gap:20px;
+}
+
+.card{
+width:280px;
+background:white;
+padding:20px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,.15);
+text-align:center;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card h2{
+color:#1565c0;
+}
