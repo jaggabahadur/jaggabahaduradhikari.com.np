@@ -23,6 +23,25 @@ header p{
 nav{
     margin-top:15px;
 }
+const images=[
+"images/slide1.jpg",
+"images/slide2.jpg",
+"images/slide3.jpg"
+];
+
+let current=0;
+
+setInterval(function(){
+
+current++;
+
+if(current>=images.length){
+current=0;
+}
+
+document.getElementById("slide").src=images[current];
+
+},3000);
 
 nav a{
     color:white;
