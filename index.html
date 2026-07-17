@@ -1,20 +1,158 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta name="description" content="Official Website of Jagga Bahadur Adhikari">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet" href="style.css">
+    <meta name="description" content="Official Website of Jagga Bahadur Adhikari">
 
-<link rel="icon" href="images/logo.png">
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Jagga Bahadur Adhikari | Teacher</title>
+    <title>Jagga Bahadur Adhikari | Teacher</title>
 
-<style>
-body{
-  <header>
-    <h1>Jagga Bahadur Adhikari</h1>
-    <p>Physics | Mathematics | Science Teacher</p>
+    <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f7fb;
+            color: #333;
+        }
+
+        header {
+            background: #0d47a1;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background: #1565c0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background: #0d47a1;
+        }
+
+        .topbar {
+            padding: 20px;
+            text-align: center;
+            background: white;
+        }
+
+        .search-box {
+            width: 300px;
+            max-width: 90%;
+            padding: 10px;
+        }
+
+        .dark-btn {
+            padding: 10px 15px;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+
+        .slider img {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            margin-top: 20px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background: white;
+        }
+
+        .hero h1 {
+            color: #0d47a1;
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background: #1565c0;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 40px 20px;
+        }
+
+        .card {
+            width: 250px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+        }
+
+        .about {
+            text-align: center;
+            padding: 50px 20px;
+            background: #fff;
+        }
+
+        .profile {
+            width: 180px;
+            border-radius: 50%;
+            margin: 20px 0;
+        }
+
+        footer {
+            background: #0d47a1;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Jagga Bahadur Adhikari</h1>
+        <p>Physics | Mathematics | Science Teacher</p>
+    </header>
 
     <nav>
         <a href="index.html">Home</a>
@@ -24,259 +162,115 @@ body{
         <a href="contact.html">Contact</a>
         <a href="admin.html">Admin Login</a>
     </nav>
-</header> 
-  <section class="topbar">
 
-<input type="text" placeholder="Search Notes, PDF, Question..." class="search-box">
+    <section class="topbar">
 
-<button onclick="toggleDarkMode()" class="dark-btn">
-🌙 Dark Mode
-</button>
-<section class="slider">
+        <input type="text" class="search-box"
+            placeholder="Search Notes, PDF, Question...">
 
-<img id="slide" src="images/slide1.jpg" alt="Banner">
+        <button class="dark-btn" onclick="toggleDarkMode()">
+            🌙 Dark Mode
+        </button>
 
-</section>
-</section>
-  <section class="hero">
-  <section class="features">
+        <div class="slider">
+            <img id="slide" src="images/slide1.jpg" alt="Banner">
+        </div>
 
-<div class="card">
-<h2>📚 Notes</h2>
-<p>Class 6–12 Notes</p>
-</div>
+    </section>
 
-<div class="card">
-<h2>📄 PDF</h2>
-<p>Download Study Materials</p>
-</div>
+    <section class="hero">
 
-<div class="card">
-<h2>📝 Question Bank</h2>
-<p>Practice Questions</p>
-</div>
-<section class="about">
+        <h1>Welcome to Jagga Bahadur Adhikari Official Website</h1>
 
-<h2>About Me</h2>
+        <p>Physics | Mathematics | Science Learning Portal</p>
 
-<img src="images/teacher.jpg" alt="Teacher Photo" class="profile">
+        <p>
+            Free Notes, PDF, Question Bank,
+            Video Lessons and Educational Materials.
+        </p>
 
-<h3>Jagga Bahadur Adhikari</h3>
+        <a href="notes.html" class="btn">
+            Start Learning
+        </a>
 
-<p>
-Welcome to my official educational website.
-I am a Physics, Mathematics and Science Teacher.
-This website provides Notes, PDFs, Question Banks,
-Video Lessons and educational resources for students.
-</p>
+    </section>
 
-</section>
-<div class="card">
-<h2>🎥 Video Lessons</h2>
-<p>Learning Videos</p>
-</div>
+    <section class="features">
 
-<div class="card">
-<h2>📢 Notices</h2>
-<p>Latest Notices</p>
-</div>
+        <div class="card">
+            <h2>📚 Notes</h2>
+            <p>Class 6–12 Notes</p>
+        </div>
 
-<div class="card">
-<h2>👨‍🏫 About Teacher</h2>
-<p>Know More About Me</p>
-</div>
+        <div class="card">
+            <h2>📄 PDF</h2>
+            <p>Download Study Materials</p>
+        </div>
 
-</section>
+        <div class="card">
+            <h2>📝 Question Bank</h2>
+            <p>Practice Questions</p>
+        </div>
 
-<h1>Welcome to Jagga Bahadur Adhikari Official Website</h1>
+        <div class="card">
+            <h2>🎥 Video Lessons</h2>
+            <p>Learning Videos</p>
+        </div>
 
-<p>
-Physics | Mathematics | Science Learning Portal
-</p>
+        <div class="card">
+            <h2>📢 Notices</h2>
+            <p>Latest Notices</p>
+        </div>
 
-<p>
-Free Notes, PDF, Question Bank, Video Lessons and Educational Materials
-</p>
+        <div class="card">
+            <h2>👨‍🏫 About Teacher</h2>
+            <p>Know More About Me</p>
+        </div>
 
-<a href="notes.html" class="btn">Start Learning</a>
+    </section>
 
-</section>
-margin:0;
-font-family:Arial,sans-serif;
-background:#f4f7fb;
-color:#333;
-}
+    <section class="about">
 
-header{
-background:#0d47a1;
-color:white;
-padding:20px;
-text-align:center;
-}
+        <h2>About Me</h2>
 
-nav{
-background:#1565c0;
-display:flex;
-justify-content:center;
-flex-wrap:wrap;
-}
+        <img src="images/teacher.jpg"
+            alt="Teacher Photo"
+            class="profile">
 
-nav a{
-color:white;
-text-decoration:none;
-padding:15px 20px;
-font-weight:bold;
-}
+        <h3>Jagga Bahadur Adhikari</h3>
 
-nav a:hover{
-background:#0d47a1;
-}
+        <p>
+            Welcome to my official educational website.
+            I am a Physics, Mathematics and Science Teacher.
+            This website provides Notes, PDFs,
+            Question Banks, Video Lessons and
+            educational resources for students.
+        </p>
 
-.hero{
-padding:60px 20px;
-text-align:center;
-background:white;
-}
+    </section>
 
-.hero h1{
-font-size:40px;
-margin-bottom:10px;
-color:#0d47a1;
-}
+    <footer>
 
-.hero p{
-font-size:20px;
-}
+        <h3>Jagga Bahadur Adhikari</h3>
 
-.button{
-display:inline-block;
-margin-top:20px;
-padding:12px 25px;
-background:#1565c0;
-color:white;
-text-decoration:none;
-border-radius:5px;
-}
+        <p>Physics | Mathematics | Science Teacher</p>
 
-.section{
-padding:40px 20px;
-text-align:center;
-}
+        <p>Email: youremail@example.com</p>
 
-.cards{
-display:flex;
-flex-wrap:wrap;
-justify-content:center;
-gap:20px;
-}
+        <p>Website: jaggabahaduradhikari.com.np</p>
 
-.card{
-background:white;
-width:250px;
-padding:20px;
-border-radius:10px;
-box-shadow:0 0 10px rgba(0,0,0,.1);
-}
+        <p>
+            <a href="#">Facebook</a> |
+            <a href="#">YouTube</a> |
+            <a href="#">GitHub</a>
+        </p>
 
-footer{
-background:#0d47a1;
-color:white;
-text-align:center;
-padding:15px;
-margin-top:30px;
-}
-</style>
+        <p>© 2026 All Rights Reserved.</p>
 
-</head>
-<footer>
+    </footer>
 
-<h3>Jagga Bahadur Adhikari</h3>
-
-<p>Physics | Mathematics | Science Teacher</p>
-
-<p>Email: youremail@example.com</p>
-
-<p>Website: jaggabahaduradhikari.com.np</p>
-
-<p>
-<a href="#">Facebook</a> |
-<a href="#">YouTube</a> |
-<a href="#">GitHub</a>
-</p>
-
-<p>© 2026 All Rights Reserved.</p>
-
-</footer>
-  <script src="script.js"></script>
-<body>
-
-<header>
-<h1>Jagga Bahadur Adhikari</h1>
-<p>Physics | Mathematics | Science Teacher</p>
-</header>
-
-<nav>
-<a href="#">Home</a>
-<a href="#">About</a>
-<a href="#">Notes</a>
-<a href="#">PDF</a>
-<a href="#">Question Bank</a>
-<a href="#">Gallery</a>
-<a href="#">Contact</a>
-</nav>
-
-<section class="hero">
-<h1>Welcome Students</h1>
-<p>Free Learning Materials for Class 6–12</p>
-
-<a class="button" href="#">Start Learning</a>
-</section>
-
-<section class="section">
-
-<h2>Our Services</h2>
-
-<div class="cards">
-
-<div class="card">
-<h3>📚 Notes</h3>
-<p>Chapter wise Notes</p>
-</div>
-
-<div class="card">
-<h3>📄 PDF</h3>
-<p>Download PDF Files</p>
-</div>
-
-<div class="card">
-<h3>📝 Question Bank</h3>
-<p>Practice Questions</p>
-</div>
-
-<div class="card">
-<h3>🎥 Video</h3>
-<p>Learning Videos</p>
-</div>
-
-<div class="card">
-<h3>🏆 Result</h3>
-<p>Educational Resources</p>
-</div>
-
-<div class="card">
-<h3>📞 Contact</h3>
-<p>Contact Teacher Anytime</p>
-</div>
-
-</div>
-
-</section>
-
-<footer>
-
-© 2026 Jagga Bahadur Adhikari | All Rights Reserved
-
-</footer>
+    <script src="script.js"></script>
 
 </body>
+
 </html>
