@@ -1,28 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Manage Notes</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manage Notes</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<h1>Manage Notes</h1>
+<div class="container">
 
-<input type="text" id="title" placeholder="Note Title">
+  <h1>Manage Notes</h1>
 
-<textarea id="content" placeholder="Write your note here..." rows="10"></textarea>
+  <input
+    type="text"
+    id="title"
+    placeholder="Enter Note Title"
+  >
 
-<br><br>
+  <br><br>
 
-<button onclick="saveNote()">Save Note</button>
+  <textarea
+    id="content"
+    rows="10"
+    placeholder="Write your note here..."
+  ></textarea>
 
-<hr>
+  <br><br>
 
-<h2>Saved Notes</h2>
+  <button onclick="saveNote()">Save Note</button>
 
-<div id="notesList"></div>
+  <hr>
+
+  <h2>Saved Notes</h2>
+
+  <div id="notesList"></div>
+
+</div>
 
 <script src="notes.js"></script>
 
