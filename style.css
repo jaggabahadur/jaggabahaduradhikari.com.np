@@ -248,3 +248,30 @@ width:220px;
 border-radius:10px;
 box-shadow:0 5px 15px rgba(0,0,0,.15);
 }
+.container{
+    width:90%;
+    max-width:900px;
+    margin:40px auto;
+}
+
+input, textarea{
+    width:100%;
+    padding:12px;
+    font-size:16px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    box-sizing:border-box;
+}
+
+button{
+    padding:12px 20px;
+    background:#1565c0;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#0d47a1;
+}
