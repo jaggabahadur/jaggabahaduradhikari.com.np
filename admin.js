@@ -21,8 +21,11 @@ window.login = function () {
     .then((userCredential) => {
       alert("Login Successful!");
       window.location.href = "dashboard.html";
+    })
+    .catch((error) => {
+      alert(error.code + "\n" + error.message);
+      document.getElementById("msg").innerHTML = error.message;
+    });
 
-          catch((error) => {
-    alert(error.code + "\n" + error.message);
-    document.getElementById("msg").innerHTML = error.message;
-});
+  return false;
+};
