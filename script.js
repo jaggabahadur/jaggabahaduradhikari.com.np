@@ -1,9 +1,9 @@
 import { createClient } from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm";
 
 const SUPABASE_URL = "https://ogidwfpxpfbpjippefow.supabase.co";
-const SUPABASE_KEY = "YOUR_PUBLISHABLE_KEY";
+const SUPABASE_KEY = "sb_publishable_6D8b9LnY9si0vXszHonL1Q_BCMZtYi3";
 
-const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+const supabase = createClient(https://ogidwfpxpfbpjippefow.supabase.co);
 
 window.uploadFile = async function () {
     const file = document.getElementById("file").files[0];
